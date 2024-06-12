@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+new_string="$(date +'%Y-%m-%d %H:%M : ')"
+file_name="~/python/web-knitter/helper/changes.md"
+
+echo "$new_string" | cat - "$file_name" > temp_1 && mv temp_1 "$file_name"
+
+nano "$file_name"

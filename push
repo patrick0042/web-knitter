@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+rsync --info=DEL --verbose --recursive --delete --checksum ~/python/web-knitter/upload/ web-user@host.domain.top:/var/www/html/

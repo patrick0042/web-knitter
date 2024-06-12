@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+cd ~/python/web-knitter
+rm upload/*
+cp helper/favicon.ico upload/
+cp helper/style.css upload/
+cp helper/robots.txt upload/
+python3 main.py
+echo
+read -p "Browse (y/other)? " choice
+if [ "$choice" == "y" ]; then firefox "file:///python/web-knitter/upload/index.html";
+fi
+echo
+echo

@@ -1,0 +1,22 @@
+body {
+  font-family: sans-serif;
+  background-color: #8a93a4;
+  color: #000000;
+  padding-top: 5%;
+  padding-right: 15%;
+  padding-bottom: 15%;
+  padding-left: 7%;
+}
+
+a {
+  color: #173542;
+}
+
+h3 {
+  color: #173542;
+  background-color: #ece398;
+}
+
+p, li {
+  line-height: 135%;
+}
