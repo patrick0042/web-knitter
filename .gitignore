@@ -1,0 +1,6 @@
+.idea
+__pycache__
+#content
+upload
+#helper/about.md
+#helper/changes.md
